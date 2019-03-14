@@ -207,8 +207,8 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 180px;
+   height: 180px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
@@ -326,7 +326,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .photoshop {
-  	width: 60%;
+  	width: 90%;
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
 }
@@ -355,6 +355,55 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
 }
+.per10 {
+  width: 10%;
+    -moz-animation: jquery 2s ease;
+    -webkit-animation: jquery 2s ease;
+}
+.per20 {
+  width: 20%;
+    -moz-animation: jquery 2s ease;
+    -webkit-animation: jquery 2s ease;
+}
+.per30 {
+  width: 30%;
+    -moz-animation: jquery 2s ease;
+    -webkit-animation: jquery 2s ease;
+}
+.per40 {
+  width: 40%;
+    -moz-animation: jquery 2s ease;
+    -webkit-animation: jquery 2s ease;
+}
+.per50 {
+  width: 50%;
+    -moz-animation: jquery 2s ease;
+    -webkit-animation: jquery 2s ease;
+}
+.per60 {
+  width: 60%;
+    -moz-animation: jquery 2s ease;
+    -webkit-animation: jquery 2s ease;
+}
+.per70 {
+  width: 70%;
+    -moz-animation: jquery 2s ease;
+    -webkit-animation: jquery 2s ease;
+}
+.per80 {
+  width: 80%;
+    -moz-animation: jquery 2s ease;
+    -webkit-animation: jquery 2s ease;
+}
+.per90 {
+  width: 90%;
+    -moz-animation: jquery 2s ease;
+    -webkit-animation: jquery 2s ease;
+}
+
+
+
+
 
 @-moz-keyframes photoshop {
   0%   { width: 0px;  }

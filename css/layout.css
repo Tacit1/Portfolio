@@ -207,8 +207,8 @@ ul#nav li.current a { color: #FD28A0; }
 }
 #about .profile-pic {
    position: relative;
-   width: 180px;
-   height: 180px;
+   width: 100px;
+   height: 100px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }

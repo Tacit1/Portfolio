@@ -284,13 +284,13 @@
             <h1>Check Out Some of My Works.</h1>
 
             <!-- portfolio-wrapper -->
-            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+            <div onClick="loadWorks();"  id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
 
-          	   <div class="columns portfolio-item">
+          	   <div  class="columns portfolio-item">
                   <div class="item-wrap">
 
                      <a href="works.html" target="_blank">
-                        <img alt="" src="images/portfolio/img1.png">
+                        <img  alt="" src="images/portfolio/img1.png">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
           					      <h5>Food</h5>
@@ -559,6 +559,13 @@
    <script src="js/jquery.fittext.js"></script>
    <script src="js/magnific-popup.js"></script>
    <script src="js/init.js"></script>
+
+   <script type="text/javascript">
+     function loadWorks(){
+      window.location.href = "works.html";
+     }
+
+   </script>
 
 </body>
 
